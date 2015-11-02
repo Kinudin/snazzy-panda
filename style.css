@@ -1,0 +1,41 @@
+/*
+ Theme Name:   Snazzy Panda
+ Theme URI:    https://github.com/progothemes/pgb-child
+ Description:  Example child theme of ProGo Base pgb. Currently just enqueues the default pgb style.css as well, and has no extra sidebars or Page Templates or anything else. But you could fork it and make it do more?
+ Author:       ProGo
+ Author URI:   http://www.progo.com
+ Version:      0.0.1
+ Template:     pgb
+ License:      GPLv2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* and then? */
+
+
+#wpcf7-f4-p9-o1 p{
+display: inline;
+}
+
+@media screen and (min-width: 992px){
+
+ #post-9 p{
+  float: left;
+  width: 30%;
+ }
+
+
+
+}
+.wpcf7 textarea, #post-9 .your-message{
+ /*max-width: 100%;*/
+ width: 100%;
+}
+
+@media screen and (max-width: 991px){
+ #post-9 input[type=text], input[type=email]{
+  width: 100%;
+  display: inline;
+ }
+
+}
